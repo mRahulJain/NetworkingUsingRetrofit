@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NetworkingAssignRetrofit</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_todo">TodoActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_post">PostActivity</string>
+</resources>

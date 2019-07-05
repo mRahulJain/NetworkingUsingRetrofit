@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+    <Button
+            android:text="COMMENTS"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/btn2"
+            app:layout_constraintTop_toBottomOf="@+id/btn0" app:layout_constraintEnd_toStartOf="@+id/btn3"
+            android:layout_marginBottom="301dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="76dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="29dp"
+    />
+    <Button
+            android:text="POSTS"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/btn3"
+            app:layout_constraintTop_toBottomOf="@+id/btn1" app:layout_constraintStart_toEndOf="@+id/btn2"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="301dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="58dp"
+    />
+    <Button
+            android:text="TODOS"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/btn1" android:layout_marginTop="266dp"
+            app:layout_constraintStart_toEndOf="@+id/btn0" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="32dp" app:layout_constraintBottom_toTopOf="@+id/btn3"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginEnd="58dp"
+    />
+    <Button
+            android:text="USERS"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/btn0" android:layout_marginTop="266dp"
+            app:layout_constraintEnd_toStartOf="@+id/btn1" android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/btn2" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="76dp" android:layout_marginEnd="29dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
